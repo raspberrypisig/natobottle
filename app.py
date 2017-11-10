@@ -9,6 +9,9 @@ codes = {
     "Z": "Zulu"
 }
 
+@route('/')
+def index():
+    return '<html><body>hello</body></html>'
 
 @route('/nato')
 def nato():
