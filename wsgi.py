@@ -19,4 +19,4 @@ def nato():
 def code(letter):
     return codes[letter.capitalize()]
 
-run(host='0.0.0.0', port=8080)
+run()
